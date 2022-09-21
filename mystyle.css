@@ -77,13 +77,60 @@ header h1{
     margin-bottom:25px;
 }
 header p{
-
+width:90%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+font-size: 17px;
 }
 p span.subscribe-word{
 
 }
 div.border{
     
+}
+
+/*main news section*/
+.main-news{
+    position: relative;
+    margin-bottom: 20px;
+} 
+.main-news-text{
+    position: absolute;
+    top:250px;
+    left: 20px;
+}
+.main-news-text h3{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing:3px;
+    margin-bottom: 20px;
+}
+.main-news-text p{
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.main-news-text h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+/*secondary-news section*/
+.secondary-news {
+margin-bottom: 20px;
+}
+.secondary-news img{
+    min-width: 100%;
+    
+}
+.secondary-news-text{
+    background-color: white;
+    color:black;
+    margin-top: -10px;
+    padding:20px;
 }
 
 
